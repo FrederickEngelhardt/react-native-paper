@@ -6,9 +6,11 @@ exports[`renders FAB with custom size prop 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 25,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -21,6 +23,7 @@ exports[`renders FAB with custom size prop 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -29,6 +32,8 @@ exports[`renders FAB with custom size prop 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 25,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -39,7 +44,7 @@ exports[`renders FAB with custom size prop 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -191,9 +196,11 @@ exports[`renders custom color for the icon and label of the FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -206,6 +213,7 @@ exports[`renders custom color for the icon and label of the FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -214,6 +222,8 @@ exports[`renders custom color for the icon and label of the FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -224,7 +234,7 @@ exports[`renders custom color for the icon and label of the FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -376,9 +386,11 @@ exports[`renders default FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -391,6 +403,7 @@ exports[`renders default FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -399,6 +412,8 @@ exports[`renders default FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -409,7 +424,7 @@ exports[`renders default FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -561,9 +576,11 @@ exports[`renders disabled FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -576,6 +593,7 @@ exports[`renders disabled FAB 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -584,6 +602,8 @@ exports[`renders disabled FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -594,7 +614,7 @@ exports[`renders disabled FAB 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -746,9 +766,11 @@ exports[`renders extended FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -761,6 +783,7 @@ exports[`renders extended FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -769,6 +792,8 @@ exports[`renders extended FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -779,7 +804,7 @@ exports[`renders extended FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -970,9 +995,11 @@ exports[`renders extended FAB with custom size prop 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 25,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -985,6 +1012,7 @@ exports[`renders extended FAB with custom size prop 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -993,6 +1021,8 @@ exports[`renders extended FAB with custom size prop 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 25,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1003,7 +1033,7 @@ exports[`renders extended FAB with custom size prop 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1193,9 +1223,11 @@ exports[`renders large FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 28,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1208,6 +1240,7 @@ exports[`renders large FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -1216,6 +1249,8 @@ exports[`renders large FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 28,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1226,7 +1261,7 @@ exports[`renders large FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1378,9 +1413,11 @@ exports[`renders loading FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1393,6 +1430,7 @@ exports[`renders loading FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -1401,6 +1439,8 @@ exports[`renders loading FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1411,7 +1451,7 @@ exports[`renders loading FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1688,9 +1728,11 @@ exports[`renders loading FAB with custom size prop 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 25,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1703,6 +1745,7 @@ exports[`renders loading FAB with custom size prop 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -1711,6 +1754,8 @@ exports[`renders loading FAB with custom size prop 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 25,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1721,7 +1766,7 @@ exports[`renders loading FAB with custom size prop 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1998,9 +2043,11 @@ exports[`renders not visible FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -2013,6 +2060,7 @@ exports[`renders not visible FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -2021,6 +2069,8 @@ exports[`renders not visible FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -2031,7 +2081,7 @@ exports[`renders not visible FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -2183,9 +2233,11 @@ exports[`renders small FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 12,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -2198,6 +2250,7 @@ exports[`renders small FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -2206,6 +2259,8 @@ exports[`renders small FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 12,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -2216,7 +2271,7 @@ exports[`renders small FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -2368,9 +2423,11 @@ exports[`renders visible FAB 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -2383,6 +2440,7 @@ exports[`renders visible FAB 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="fab-container-outer-layer"
@@ -2391,6 +2449,8 @@ exports[`renders visible FAB 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -2401,7 +2461,7 @@ exports[`renders visible FAB 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="fab-container-inner-layer"
+    testID="fab-container-middle-layer"
   >
     <View
       collapsable={false}

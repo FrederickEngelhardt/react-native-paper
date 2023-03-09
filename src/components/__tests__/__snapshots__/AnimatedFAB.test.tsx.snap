@@ -6,9 +6,11 @@ exports[`renders animated fab 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": "absolute",
       "right": undefined,
@@ -21,6 +23,7 @@ exports[`renders animated fab 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="animated-fab-container-outer-layer"
@@ -29,6 +32,8 @@ exports[`renders animated fab 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -39,7 +44,7 @@ exports[`renders animated fab 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="animated-fab-container-inner-layer"
+    testID="animated-fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -303,9 +308,11 @@ exports[`renders animated fab with label on the left 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": "absolute",
       "right": undefined,
@@ -318,6 +325,7 @@ exports[`renders animated fab with label on the left 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="animated-fab-container-outer-layer"
@@ -326,6 +334,8 @@ exports[`renders animated fab with label on the left 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -336,7 +346,7 @@ exports[`renders animated fab with label on the left 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="animated-fab-container-inner-layer"
+    testID="animated-fab-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -602,9 +612,11 @@ exports[`renders animated fab with label on the right by default 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 16,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": "absolute",
       "right": undefined,
@@ -617,6 +629,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
       "shadowRadius": 8,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="animated-fab-container-outer-layer"
@@ -625,6 +638,8 @@ exports[`renders animated fab with label on the right by default 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(238, 232, 244)",
+        "borderRadius": 16,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -635,7 +650,7 @@ exports[`renders animated fab with label on the right by default 1`] = `
         "shadowRadius": 3,
       }
     }
-    testID="animated-fab-container-inner-layer"
+    testID="animated-fab-container-middle-layer"
   >
     <View
       collapsable={false}

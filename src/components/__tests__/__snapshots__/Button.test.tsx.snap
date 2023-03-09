@@ -6,9 +6,11 @@ exports[`renders button with an accessibility hint 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -21,6 +23,7 @@ exports[`renders button with an accessibility hint 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -29,6 +32,8 @@ exports[`renders button with an accessibility hint 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -39,7 +44,7 @@ exports[`renders button with an accessibility hint 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -161,9 +166,11 @@ exports[`renders button with an accessibility label 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -176,6 +183,7 @@ exports[`renders button with an accessibility label 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -184,6 +192,8 @@ exports[`renders button with an accessibility label 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -194,7 +204,7 @@ exports[`renders button with an accessibility label 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -316,9 +326,11 @@ exports[`renders button with button color 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -331,6 +343,7 @@ exports[`renders button with button color 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -339,6 +352,8 @@ exports[`renders button with button color 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -349,7 +364,7 @@ exports[`renders button with button color 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -470,9 +485,11 @@ exports[`renders button with color 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -485,6 +502,7 @@ exports[`renders button with color 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -493,6 +511,8 @@ exports[`renders button with color 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -503,7 +523,7 @@ exports[`renders button with color 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -624,9 +644,11 @@ exports[`renders button with custom testID 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -639,6 +661,7 @@ exports[`renders button with custom testID 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="custom:testID-container-outer-layer"
@@ -647,6 +670,8 @@ exports[`renders button with custom testID 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -657,7 +682,7 @@ exports[`renders button with custom testID 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="custom:testID-container-inner-layer"
+    testID="custom:testID-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -778,9 +803,11 @@ exports[`renders button with icon 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -793,6 +820,7 @@ exports[`renders button with icon 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -801,6 +829,8 @@ exports[`renders button with icon 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -811,7 +841,7 @@ exports[`renders button with icon 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -988,9 +1018,11 @@ exports[`renders button with icon in reverse order 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1003,6 +1035,7 @@ exports[`renders button with icon in reverse order 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -1011,6 +1044,8 @@ exports[`renders button with icon in reverse order 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1021,7 +1056,7 @@ exports[`renders button with icon in reverse order 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1200,9 +1235,11 @@ exports[`renders contained contained with mode 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1215,6 +1252,7 @@ exports[`renders contained contained with mode 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -1223,6 +1261,8 @@ exports[`renders contained contained with mode 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1233,7 +1273,7 @@ exports[`renders contained contained with mode 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1355,9 +1395,11 @@ exports[`renders disabled button 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1370,6 +1412,7 @@ exports[`renders disabled button 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -1378,6 +1421,8 @@ exports[`renders disabled button 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1388,7 +1433,7 @@ exports[`renders disabled button 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1509,9 +1554,11 @@ exports[`renders loading button 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1524,6 +1571,7 @@ exports[`renders loading button 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -1532,6 +1580,8 @@ exports[`renders loading button 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1542,7 +1592,7 @@ exports[`renders loading button 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -1871,9 +1921,11 @@ exports[`renders outlined button with mode 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1886,6 +1938,7 @@ exports[`renders outlined button with mode 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -1894,6 +1947,8 @@ exports[`renders outlined button with mode 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1904,7 +1959,7 @@ exports[`renders outlined button with mode 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -2026,9 +2081,11 @@ exports[`renders text button by default 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -2041,6 +2098,7 @@ exports[`renders text button by default 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -2049,6 +2107,8 @@ exports[`renders text button by default 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -2059,7 +2119,7 @@ exports[`renders text button by default 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}
@@ -2180,9 +2240,11 @@ exports[`renders text button with mode 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 20,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -2195,6 +2257,7 @@ exports[`renders text button with mode 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="button-container-outer-layer"
@@ -2203,6 +2266,8 @@ exports[`renders text button with mode 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": 20,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -2213,7 +2278,7 @@ exports[`renders text button with mode 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="button-container-inner-layer"
+    testID="button-container-middle-layer"
   >
     <View
       collapsable={false}

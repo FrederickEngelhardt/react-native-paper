@@ -103,9 +103,11 @@ exports[`renders list item with custom description 1`] = `
             style={
               Object {
                 "alignSelf": undefined,
+                "borderRadius": 8,
                 "bottom": undefined,
                 "end": undefined,
                 "flex": undefined,
+                "height": undefined,
                 "left": undefined,
                 "position": undefined,
                 "right": undefined,
@@ -118,6 +120,7 @@ exports[`renders list item with custom description 1`] = `
                 "shadowRadius": 0,
                 "start": undefined,
                 "top": undefined,
+                "width": undefined,
               }
             }
             testID="chip-container-outer-layer"
@@ -126,6 +129,8 @@ exports[`renders list item with custom description 1`] = `
               collapsable={false}
               style={
                 Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0)",
+                  "borderRadius": 8,
                   "flex": undefined,
                   "shadowColor": "#000",
                   "shadowOffset": Object {
@@ -136,7 +141,7 @@ exports[`renders list item with custom description 1`] = `
                   "shadowRadius": 0,
                 }
               }
-              testID="chip-container-inner-layer"
+              testID="chip-container-middle-layer"
             >
               <View
                 collapsable={false}

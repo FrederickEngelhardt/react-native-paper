@@ -28,10 +28,9 @@ describe('Surface', () => {
         right: 40,
         start: 50,
         top: 60,
-        flex: 1,
       },
       innerLayerViewStyle: {
-        flex: 1,
+        padding: 13,
       },
       restStyle: {
         padding: 10,
@@ -69,23 +68,7 @@ describe('Surface', () => {
         );
       });
 
-      it('should render inner layer styles on outer layer', () => {
-        const testID = 'surface-test';
-
-        const { getByTestId } = render(
-          <Surface testID={testID} style={styles.innerLayerViewStyle}>
-            {null}
-          </Surface>
-        );
-
-        expect(getByTestId(`${testID}-outer-layer`)).toHaveStyle(
-          styles.innerLayerViewStyle
-        );
-      });
-    });
-
-    describe('inner layer', () => {
-      it('should not render absolute position properties on the inner layer', () => {
+      it('should render absolute position properties on the outer layer', () => {
         const testID = 'surface-test';
 
         const { getByTestId } = render(
@@ -94,11 +77,29 @@ describe('Surface', () => {
           </Surface>
         );
 
-        expect(getByTestId(`${testID}-inner-layer`)).not.toHaveStyle(
+        expect(getByTestId(`${testID}-outer-layer`)).toHaveStyle(
           styles.absoluteStyles
         );
       });
+    });
 
+    describe('middle layer', () => {
+      it('should not render absolute position properties on the middle layer', () => {
+        const testID = 'surface-test';
+
+        const { getByTestId } = render(
+          <Surface testID={testID} style={styles.absoluteStyles}>
+            {null}
+          </Surface>
+        );
+
+        expect(getByTestId(`${testID}-middle-layer`)).not.toHaveStyle(
+          styles.absoluteStyles
+        );
+      });
+    });
+
+    describe('inner layer', () => {
       it('should render inner layer styles on the inner layer', () => {
         const testID = 'surface-test';
 
@@ -108,9 +109,7 @@ describe('Surface', () => {
           </Surface>
         );
 
-        expect(getByTestId(`${testID}-inner-layer`)).toHaveStyle(
-          styles.innerLayerViewStyle
-        );
+        expect(getByTestId(testID)).toHaveStyle(styles.innerLayerViewStyle);
       });
     });
 

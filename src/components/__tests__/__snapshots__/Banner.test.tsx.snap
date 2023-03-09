@@ -9,6 +9,7 @@ exports[`render visible banner, with custom theme 1`] = `
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -21,6 +22,7 @@ exports[`render visible banner, with custom theme 1`] = `
       "shadowRadius": 3,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="surface-outer-layer"
@@ -29,6 +31,7 @@ exports[`render visible banner, with custom theme 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(247, 243, 249)",
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -39,13 +42,12 @@ exports[`render visible banner, with custom theme 1`] = `
         "shadowRadius": 1,
       }
     }
-    testID="surface-inner-layer"
+    testID="surface-middle-layer"
   >
     <View
       collapsable={false}
       style={
         Object {
-          "backgroundColor": "rgb(247, 243, 249)",
           "flex": undefined,
           "opacity": 1,
         }
@@ -135,10 +137,13 @@ exports[`render visible banner, with custom theme 1`] = `
               style={
                 Object {
                   "alignSelf": undefined,
+                  "borderRadius": 20,
                   "bottom": undefined,
                   "end": undefined,
                   "flex": undefined,
+                  "height": undefined,
                   "left": undefined,
+                  "margin": 4,
                   "position": undefined,
                   "right": undefined,
                   "shadowColor": "#000",
@@ -150,6 +155,7 @@ exports[`render visible banner, with custom theme 1`] = `
                   "shadowRadius": 0,
                   "start": undefined,
                   "top": undefined,
+                  "width": undefined,
                 }
               }
               testID="button-container-outer-layer"
@@ -158,6 +164,8 @@ exports[`render visible banner, with custom theme 1`] = `
                 collapsable={false}
                 style={
                   Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderRadius": 20,
                     "flex": undefined,
                     "shadowColor": "#000",
                     "shadowOffset": Object {
@@ -168,7 +176,7 @@ exports[`render visible banner, with custom theme 1`] = `
                     "shadowRadius": 0,
                   }
                 }
-                testID="button-container-inner-layer"
+                testID="button-container-middle-layer"
               >
                 <View
                   collapsable={false}
@@ -180,7 +188,6 @@ exports[`render visible banner, with custom theme 1`] = `
                       "borderStyle": "solid",
                       "borderWidth": 0,
                       "flex": undefined,
-                      "margin": 4,
                       "minWidth": "auto",
                     }
                   }
@@ -301,6 +308,7 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -313,6 +321,7 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
       "shadowRadius": 3,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="surface-outer-layer"
@@ -321,6 +330,7 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(247, 243, 249)",
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -331,13 +341,12 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
         "shadowRadius": 1,
       }
     }
-    testID="surface-inner-layer"
+    testID="surface-middle-layer"
   >
     <View
       collapsable={false}
       style={
         Object {
-          "backgroundColor": "rgb(247, 243, 249)",
           "flex": undefined,
           "opacity": 0,
         }
@@ -450,6 +459,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -462,6 +472,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
       "shadowRadius": 3,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="surface-outer-layer"
@@ -470,6 +481,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(247, 243, 249)",
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -480,13 +492,12 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
         "shadowRadius": 1,
       }
     }
-    testID="surface-inner-layer"
+    testID="surface-middle-layer"
   >
     <View
       collapsable={false}
       style={
         Object {
-          "backgroundColor": "rgb(247, 243, 249)",
           "flex": undefined,
           "opacity": 1,
         }
@@ -598,10 +609,13 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
               style={
                 Object {
                   "alignSelf": undefined,
+                  "borderRadius": 20,
                   "bottom": undefined,
                   "end": undefined,
                   "flex": undefined,
+                  "height": undefined,
                   "left": undefined,
+                  "margin": 4,
                   "position": undefined,
                   "right": undefined,
                   "shadowColor": "#000",
@@ -613,6 +627,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
                   "shadowRadius": 0,
                   "start": undefined,
                   "top": undefined,
+                  "width": undefined,
                 }
               }
               testID="button-container-outer-layer"
@@ -621,6 +636,8 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
                 collapsable={false}
                 style={
                   Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderRadius": 20,
                     "flex": undefined,
                     "shadowColor": "#000",
                     "shadowOffset": Object {
@@ -631,7 +648,7 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
                     "shadowRadius": 0,
                   }
                 }
-                testID="button-container-inner-layer"
+                testID="button-container-middle-layer"
               >
                 <View
                   collapsable={false}
@@ -643,7 +660,6 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
                       "borderStyle": "solid",
                       "borderWidth": 0,
                       "flex": undefined,
-                      "margin": 4,
                       "minWidth": "auto",
                     }
                   }
@@ -764,6 +780,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -776,6 +793,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
       "shadowRadius": 3,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="surface-outer-layer"
@@ -784,6 +802,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(247, 243, 249)",
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -794,13 +813,12 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
         "shadowRadius": 1,
       }
     }
-    testID="surface-inner-layer"
+    testID="surface-middle-layer"
   >
     <View
       collapsable={false}
       style={
         Object {
-          "backgroundColor": "rgb(247, 243, 249)",
           "flex": undefined,
           "opacity": 1,
         }
@@ -890,10 +908,13 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
               style={
                 Object {
                   "alignSelf": undefined,
+                  "borderRadius": 20,
                   "bottom": undefined,
                   "end": undefined,
                   "flex": undefined,
+                  "height": undefined,
                   "left": undefined,
+                  "margin": 4,
                   "position": undefined,
                   "right": undefined,
                   "shadowColor": "#000",
@@ -905,6 +926,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                   "shadowRadius": 0,
                   "start": undefined,
                   "top": undefined,
+                  "width": undefined,
                 }
               }
               testID="button-container-outer-layer"
@@ -913,6 +935,8 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                 collapsable={false}
                 style={
                   Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderRadius": 20,
                     "flex": undefined,
                     "shadowColor": "#000",
                     "shadowOffset": Object {
@@ -923,7 +947,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                     "shadowRadius": 0,
                   }
                 }
-                testID="button-container-inner-layer"
+                testID="button-container-middle-layer"
               >
                 <View
                   collapsable={false}
@@ -935,7 +959,6 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                       "borderStyle": "solid",
                       "borderWidth": 0,
                       "flex": undefined,
-                      "margin": 4,
                       "minWidth": "auto",
                     }
                   }
@@ -1044,10 +1067,13 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
               style={
                 Object {
                   "alignSelf": undefined,
+                  "borderRadius": 20,
                   "bottom": undefined,
                   "end": undefined,
                   "flex": undefined,
+                  "height": undefined,
                   "left": undefined,
+                  "margin": 4,
                   "position": undefined,
                   "right": undefined,
                   "shadowColor": "#000",
@@ -1059,6 +1085,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                   "shadowRadius": 0,
                   "start": undefined,
                   "top": undefined,
+                  "width": undefined,
                 }
               }
               testID="button-container-outer-layer"
@@ -1067,6 +1094,8 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                 collapsable={false}
                 style={
                   Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderRadius": 20,
                     "flex": undefined,
                     "shadowColor": "#000",
                     "shadowOffset": Object {
@@ -1077,7 +1106,7 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                     "shadowRadius": 0,
                   }
                 }
-                testID="button-container-inner-layer"
+                testID="button-container-middle-layer"
               >
                 <View
                   collapsable={false}
@@ -1089,7 +1118,6 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                       "borderStyle": "solid",
                       "borderWidth": 0,
                       "flex": undefined,
-                      "margin": 4,
                       "minWidth": "auto",
                     }
                   }
@@ -1210,6 +1238,7 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1222,6 +1251,7 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
       "shadowRadius": 3,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="surface-outer-layer"
@@ -1230,6 +1260,7 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(247, 243, 249)",
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1240,13 +1271,12 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
         "shadowRadius": 1,
       }
     }
-    testID="surface-inner-layer"
+    testID="surface-middle-layer"
   >
     <View
       collapsable={false}
       style={
         Object {
-          "backgroundColor": "rgb(247, 243, 249)",
           "flex": undefined,
           "opacity": 1,
         }
@@ -1369,6 +1399,7 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -1381,6 +1412,7 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
       "shadowRadius": 3,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="surface-outer-layer"
@@ -1389,6 +1421,7 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "rgb(247, 243, 249)",
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -1399,13 +1432,12 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
         "shadowRadius": 1,
       }
     }
-    testID="surface-inner-layer"
+    testID="surface-middle-layer"
   >
     <View
       collapsable={false}
       style={
         Object {
-          "backgroundColor": "rgb(247, 243, 249)",
           "flex": undefined,
           "opacity": 1,
         }

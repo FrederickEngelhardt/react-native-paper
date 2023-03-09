@@ -6,9 +6,11 @@ exports[`Card renders an outlined card 1`] = `
   style={
     Object {
       "alignSelf": undefined,
+      "borderRadius": 12,
       "bottom": undefined,
       "end": undefined,
       "flex": undefined,
+      "height": undefined,
       "left": undefined,
       "position": undefined,
       "right": undefined,
@@ -21,6 +23,7 @@ exports[`Card renders an outlined card 1`] = `
       "shadowRadius": 0,
       "start": undefined,
       "top": undefined,
+      "width": undefined,
     }
   }
   testID="card-container-outer-layer"
@@ -29,6 +32,8 @@ exports[`Card renders an outlined card 1`] = `
     collapsable={false}
     style={
       Object {
+        "backgroundColor": "transparent",
+        "borderRadius": 12,
         "flex": undefined,
         "shadowColor": "#000",
         "shadowOffset": Object {
@@ -39,7 +44,7 @@ exports[`Card renders an outlined card 1`] = `
         "shadowRadius": 0,
       }
     }
-    testID="card-container-inner-layer"
+    testID="card-container-middle-layer"
   >
     <View
       collapsable={false}

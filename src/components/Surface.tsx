@@ -13,6 +13,7 @@ import overlay, { isAnimatedValue } from '../styles/overlay';
 import shadow from '../styles/shadow';
 import type { ThemeProp, MD3Elevation } from '../types';
 import { forwardRef } from '../utils/forwardRef';
+import { splitStyles } from '../utils/splitStyles';
 
 export type Props = React.ComponentPropsWithRef<typeof View> & {
   /**
@@ -229,10 +230,34 @@ const Surface = forwardRef<View, Props>(
       start,
       end,
       flex,
+      width,
+      height,
       ...restStyle
     } = (StyleSheet.flatten(style) || {}) as ViewStyle;
 
-    const absoluteStyles = {
+    const [filteredStyle, borderRadiusStyle, marginStyle, paddingStyle] =
+      splitStyles(
+        restStyle,
+        (style) => style.startsWith('border') && style.endsWith('Radius'),
+        (style) => style.startsWith('margin'),
+        (style) => style.startsWith('padding')
+      );
+
+    const sharedStyles = {
+      flex: height ? 1 : undefined,
+      ...borderRadiusStyle,
+    };
+
+    const middleLayerViewStyles = [
+      sharedStyles,
+      {
+        backgroundColor,
+      },
+    ];
+
+    const innerLayerViewStyles = [filteredStyle, sharedStyles, paddingStyle];
+
+    const outerLayerViewStyles = {
       position,
       alignSelf,
       top,
@@ -241,13 +266,12 @@ const Surface = forwardRef<View, Props>(
       left,
       start,
       end,
+      flex,
+      width,
+      height,
+      ...borderRadiusStyle,
+      ...marginStyle,
     };
-
-    const sharedStyle = [{ backgroundColor, flex }, restStyle];
-
-    const innerLayerViewStyles = [{ flex }];
-
-    const outerLayerViewStyles = [absoluteStyles, innerLayerViewStyles];
 
     if (isAnimatedValue(elevation)) {
       const inputRange = [0, 1, 2, 3, 4, 5];
@@ -280,10 +304,14 @@ const Surface = forwardRef<View, Props>(
           testID={`${testID}-outer-layer`}
         >
           <Animated.View
-            style={[getStyleForAnimatedShadowLayer(1), innerLayerViewStyles]}
-            testID={`${testID}-inner-layer`}
+            style={[getStyleForAnimatedShadowLayer(1), middleLayerViewStyles]}
+            testID={`${testID}-middle-layer`}
           >
-            <Animated.View {...props} testID={testID} style={sharedStyle}>
+            <Animated.View
+              {...props}
+              testID={testID}
+              style={innerLayerViewStyles}
+            >
               {children}
             </Animated.View>
           </Animated.View>
@@ -312,10 +340,14 @@ const Surface = forwardRef<View, Props>(
         testID={`${testID}-outer-layer`}
       >
         <Animated.View
-          style={[getStyleForShadowLayer(1), innerLayerViewStyles]}
-          testID={`${testID}-inner-layer`}
+          style={[getStyleForShadowLayer(1), middleLayerViewStyles]}
+          testID={`${testID}-middle-layer`}
         >
-          <Animated.View {...props} testID={testID} style={sharedStyle}>
+          <Animated.View
+            {...props}
+            testID={testID}
+            style={innerLayerViewStyles}
+          >
             {children}
           </Animated.View>
         </Animated.View>
